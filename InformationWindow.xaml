@@ -1,0 +1,21 @@
+﻿<Window x:Class="DBAssist.InformationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DBAssist"
+        mc:Ignorable="d" FontSize="16" WindowStartupLocation="CenterOwner"
+        Title="Database Information" Height="350" Width="500" Icon="Images/database.ico">
+    <StackPanel Margin="10">
+        <TextBlock Margin="10" Name="txt_server">Server Name:</TextBlock>
+        <TextBlock Margin="10" Name="txt_db">Database Name:</TextBlock>
+        <TextBlock Margin="10,10,10,0" >Database accessible for the follow authorized users:</TextBlock>
+        <CheckBox IsChecked="True" Margin="0,5,10,0" FontSize="12" HorizontalAlignment="Right" Click="CheckBox_Click" Name="hide_sys_account">Hide system accounts</CheckBox>
+        <Border Height="100" Grid.Column="1" Grid.Row="1" Margin="10" BorderBrush="DarkGray " BorderThickness="1">
+            <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock  x:Name="db_authorized" TextWrapping="Wrap" Margin="5"/>
+            </ScrollViewer>
+        </Border>
+            <Button Margin="10,0,10,0" Height="30" Content="Save to text file" Click="SaveToFile_Click"/>
+    </StackPanel>
+</Window>
