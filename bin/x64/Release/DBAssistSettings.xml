@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DBAssist>
+<Year Value="2018">
+  <Semester Value="A">
+    <Course Number="681.1.7548" Name="בסיסי נתונים" UseCourseNumberInDBName="True">
+      <Faculty>
+        SOM\TS3
+        SOM\TS2
+        SOM\LPASTER
+      </Faculty>
+      <Students>
+      </Students>
+      <Groups>
+        <Group Name="team_5">
+		SOM\TS1
+		BGU-USERS\ADIRON
+        </Group>
+      </Groups>
+    </Course>
+  </Semester>
+  <Semester Value="B">
+    <Course Number="681.1.7554" Name=" מערכות מידע" UseCourseNumberInDBName="True">
+      <Faculty>
+		SOM\LPASTER
+      </Faculty>
+      <Students>
+		BGU-USERS\ADIRON
+		SOM\TS3
+		SOM\TS2
+      </Students>
+      <Groups>
+      </Groups>
+    </Course>
+  </Semester>
+</Year>
+</DBAssist>

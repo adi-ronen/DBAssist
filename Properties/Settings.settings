@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DBAssist.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SQLServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FBMEDUSQL</Value>
+    </Setting>
+    <Setting Name="ConnectorName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DBAssist</Value>
+    </Setting>
+    <Setting Name="ConnectorPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">P@55word</Value>
+    </Setting>
+    <Setting Name="SettingLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\FBMEDUSQL\SQL DBAssist Setting$</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
